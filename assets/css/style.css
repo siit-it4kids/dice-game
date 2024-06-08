@@ -1,0 +1,21 @@
+.ui-container {
+    border: 1px solid grey;
+}
+
+h1 {
+    text-align: center;
+}
+
+#dice-display {
+    height: 5rem;
+    background-color: bisque;
+}
+
+.dice-container {
+    height: 100%;
+    aspect-ratio: 1;
+    border: 1px solid darkgoldenrod;
+    border-radius: 0.5rem;
+    background-size: cover;
+    background-position: center center;
+}
