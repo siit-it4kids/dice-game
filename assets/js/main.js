@@ -7,5 +7,6 @@ const diceModel = new DiceModel();
 const diceView = new DiceView(diceModel, diceDisplay);
 
 setInterval(function(){
-    diceView.refresh()
+    diceModel.roll();
+    diceView.update()
 }, 1000);

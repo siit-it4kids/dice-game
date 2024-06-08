@@ -13,11 +13,9 @@ export class DiceView {
         this.parentDomElem.append(this.diceContainer);
     }
 
-    refresh(){
-        const newRoll = this.diceModel.roll;
-        console.log(newRoll);
-
-        this.diceContainer.style.backgroundImage = `url('assets/img/dice-${newRoll}.svg')`;
+    update(){        
+        console.log(this.diceModel.diceValue);
+        this.diceContainer.style.backgroundImage = `url('assets/img/dice-${this.diceModel.diceValue}.svg')`;
     }
 
 
